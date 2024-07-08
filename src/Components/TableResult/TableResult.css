@@ -1,0 +1,29 @@
+.result-list{
+    border: 3px solid black;
+    width: 750px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.result-list-row-header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    margin: 20px 150px 21px 0;
+}
+
+.no-result{
+    opacity: 0.6;
+}
+
+.result-list-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-delete{
+    cursor: pointer;
+}
